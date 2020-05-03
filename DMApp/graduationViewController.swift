@@ -33,10 +33,6 @@ class graduationViewController: UIViewController, UIPickerViewDelegate, UIPicker
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int)->Int{
         return yearArray.count
     }
-    //func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> //String? {//왜 private?
-        //return yearArray[row]
-        
-    //}
     func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
         let myTitle = NSAttributedString(string: yearArray[row], attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
         return myTitle

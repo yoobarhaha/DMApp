@@ -39,7 +39,7 @@ class findClassViewController: UIViewController {
         "2학기":"고급C++프로그래밍 고급미디어디자인 디지털미디어세미나1 컴퓨터시스템및미디어구조 디지털미디어입문실습 자료구조 3D모델링 인터랙션디자인 미디어통신 VR/AR/MR프로그래밍 미디어스토리텔링 캡스톤디자인설계1 데이터베이스 웹프로그래밍 실감미디어제작 VR/AR/MR디자인 소프트웨어개발실무영어2 소프트웨어역량인증 미디어빅데이터 포트폴리오특론"]
     var semesterSet:Set<String>=[]
     var resultSet:Set<String>=[]
-    var allClassString:String = ""
+    var allClassString:String=""
     
     override func viewDidLoad() {
         super.viewDidLoad()
